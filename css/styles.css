@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    margin: 0 10% 5%;
+    padding: 0 5%;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+    font-weight: bold;
+}
+/*_______________________________________I N P U T______A R E A_________________________________________*/
+input {
+    font-size: 80px;
+    margin: 15% 10% 15% 0;
+    width: 70%;
+    border: none;
+    background-color: #F1F1F1;
+    color: #ec5a62;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+::placeholder {
+    color: #c2c2c2;
+}
+
+input:hover,
+input:focus,
+input:active {
+    box-shadow: 0 0 10px 5px #c2c2c2;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 15% 0 0 0;
+    padding: 1.5%;
+    background-color: #fff;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    background-color: #F1F1F1;
+}
+
+.btn {
+    width: 70px;
+    height: 70px; 
+}
+
+button:hover,
+button:focus,
+button:active {
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-radius: 50%;
+    box-shadow: 0 0 5px 2px #c2c2c2;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+/*________________________________________________C O L U M N S__________________________________________*/
+.columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns__column {
+    width: 33%;
+}
+
+.columns__column--middle {
+    margin: 0 5%;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #c2c2c2;
+    transition: all .25s ease-in;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #ec5a62;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 50%;
+}
+
+li {
+    background-color: #EBEBED;
+    border-radius: 5%;
+    margin: 0 0 4% 0;
+    transition: all .25s ease-in;
+    background-color: rgba(118,117,128,0.05);
+}
+
+li:hover,
+li:focus,
+li:active {
+    color: #ec5a62;
+    background-color: rgba(118,117,128,0.1);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+img {
+    width: 50px;
+    margin: 3%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
