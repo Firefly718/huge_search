@@ -41,6 +41,13 @@ input:active {
     box-shadow: 0 0 10px 5px #c2c2c2;
 }
 
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
 button {
     width: 100px;
     height: 100px;
